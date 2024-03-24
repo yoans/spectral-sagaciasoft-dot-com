@@ -1,14 +1,5 @@
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-A Jekyll port of the Spectral theme by HTML5 UP.
-Find the original non-jekyll theme at: http://html5up.net/
-Note: @arkadianriver is in no way associated with @n33co
-      other than I really like his _style_! get it?
-Below is @n33co's readme from the original pure HTML theme
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
 Spectral by HTML5 UP
-html5up.net | @n33co
+html5up.net | @ajlkn
 Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 
 
@@ -16,14 +7,10 @@ A big, modern, blocky affair with a mobile-style menu, fully responsive styling,
 and an assortment of pre-styled elements. So, pretty much what you were expecting
 -- except, of course, for how it's put together, specifically:
 
-- It's built on Skel 3*, a leaner, more modular rewrite of my responsive framework.
+- It's built with components from my Responsive Tools project.
 
-  (* = still in development as of this writing)
-
-- It uses flexbox*, which eliminates all kinds of terrible hacks and clunky layout
+- It uses flexbox, which eliminates all kinds of terrible hacks and clunky layout
   stopgaps (like CSS grid systems).
-
-  (* = not supported on IE8/9, but non-flexbox fallbacks are included)
 
 - It uses Sass* a lot more intelligently, thanks in part to several new mixins
   and functions I've been working on (as well as a few by @HugoGiraudel).
@@ -41,7 +28,7 @@ you can use for pretty much whatever.
 (* = not included)
 
 AJ
-n33.co @n33co dribbble.com/n33
+aj@lkn.io | @ajlkn
 
 
 Credits:
@@ -50,12 +37,9 @@ Credits:
 		Unsplash (unsplash.com)
 
 	Icons:
-		Font Awesome (fortawesome.github.com/Font-Awesome)
+		Font Awesome (fontawesome.io)
 
 	Other:
 		jQuery (jquery.com)
-		html5shiv.js (@afarkas @jdalton @jon_neal @rem)
-		background-size polyfill (github.com/louisremi)
-		Misc. Sass functions (@HugoGiraudel)
-		Respond.js (j.mp/respondjs)
-		Skel (skel.io)
+		Scrollex (github.com/ajlkn/jquery.scrollex)
+		Responsive Tools (github.com/ajlkn/responsive-tools)
