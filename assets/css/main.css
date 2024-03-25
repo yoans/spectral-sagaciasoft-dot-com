@@ -28,6 +28,14 @@
 .inner-icon-item{
 	margin: 10px;
 }
+.contact-methods{
+	display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.right-side-icon{
+	float: right;
+}
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -2507,9 +2515,10 @@ input, select, textarea {
 		input[type="button"].primary,
 		button.primary,
 		.button.primary {
-			background-color: #ed4933;
+			background-color: #be81106e;
 			box-shadow: none !important;
 			color: #ffffff !important;
+			width: 280px;
 		}
 
 			input[type="submit"].primary:hover,
@@ -3934,9 +3943,6 @@ input, select, textarea {
 			#footer .copyright li {
 				border-left: solid 1px rgba(255, 255, 255, 0.5);
 				display: inline-block;
-				line-height: 1em;
-				margin-left: 1em;
-				padding-left: 1em;
 			}
 
 				#footer .copyright li:first-child {
