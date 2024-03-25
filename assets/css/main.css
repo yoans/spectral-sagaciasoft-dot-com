@@ -7,6 +7,27 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+.ai-icon-label{
+	display: flex;
+}
+.icons-grid{
+	display: flex;
+	flex-direction:column;
+}
+.icons-row{
+	display: flex;
+	justify-content: center;
+}
+.icons-item{
+	width: 25%;
+	display: flex;
+	flex-direction:column;
+	align-items: center;
+	margin: 15px;
+}
+.inner-icon-item{
+	margin: 10px;
+}
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -32,7 +53,6 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-
 ol, ul {
 	list-style: none;
 }
@@ -2306,19 +2326,19 @@ input, select, textarea {
 
 		ul.icons li {
 			display: inline-block;
-			padding: 0 1em 0 0;
+			padding: 0 0 0 0;
 		}
 
-			ul.icons li:last-child {
-				padding-right: 0 !important;
-			}
 
 		ul.icons.major {
 			padding: 1em 0;
+			display: flex;
+			justify-content: space-evenly;
+			align-items: center;
+			flex-direction: row;
 		}
 
 			ul.icons.major li {
-				padding-right: 3.5em;
 			}
 
 				@media screen and (max-width: 736px) {
