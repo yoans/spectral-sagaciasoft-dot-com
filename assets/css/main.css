@@ -32,6 +32,7 @@
 	display: flex;
     justify-content: space-evenly;
     flex-direction: column;
+	align-items: center
 }
 .right-side-icon{
 	float: right;
@@ -2518,7 +2519,7 @@ input, select, textarea {
 			background-color: #be81106e;
 			box-shadow: none !important;
 			color: #ffffff !important;
-			width: 280px;
+			width: 320px;
 		}
 
 			input[type="submit"].primary:hover,
@@ -3786,7 +3787,8 @@ input, select, textarea {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		max-width: 45em;
+		justify-content: center;
+		max-width: 90em;
 	}
 
 		#cta .inner header {
