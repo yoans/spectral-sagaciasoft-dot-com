@@ -2519,7 +2519,7 @@ input, select, textarea {
 			background-color: #be81106e;
 			box-shadow: none !important;
 			color: #ffffff !important;
-			width: 320px;
+			width: 400px;
 		}
 
 			input[type="submit"].primary:hover,
