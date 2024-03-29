@@ -2107,15 +2107,15 @@ input, select, textarea {
 			}
 
 		.icon.style1 {
-			color: #00ffcc;
+			color: #d554cd;
 		}
 
 		.icon.style2 {
-			color: #00f0ff;
+			color: #d554cd;
 		}
 
 		.icon.style3 {
-			color: #76ddff;
+			color: #d554cd;
 		}
 
 /* Image */
@@ -2516,7 +2516,7 @@ input, select, textarea {
 		input[type="button"].primary,
 		button.primary,
 		.button.primary {
-			background-color: #be81106e;
+			background-color: #41325e6e;
 			box-shadow: none !important;
 			color: #ffffff !important;
 			width: 400px;
@@ -2527,7 +2527,7 @@ input, select, textarea {
 			input[type="button"].primary:hover,
 			button.primary:hover,
 			.button.primary:hover {
-				background-color: #ef5e4a !important;
+				background-color: #a54545 !important;
 			}
 
 			input[type="submit"].primary:active,
@@ -2847,7 +2847,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 {
-			background-color: #21b2a6;
+			background-color: #3d1c3f;
 			color: #c8ece9;
 		}
 
@@ -2941,7 +2941,7 @@ input, select, textarea {
 			}
 
 			.wrapper.style1 .icon.major {
-				border-color: rgba(0, 0, 0, 0.125);
+				border-color: #d554cd;
 			}
 
 			.wrapper.style1 ul.alt li {
@@ -3006,7 +3006,7 @@ input, select, textarea {
 			}
 
 		.wrapper.style2 {
-			background-color: #2e3842;
+			background-color: #5e81bd;
 		}
 
 		.wrapper.style3 {
