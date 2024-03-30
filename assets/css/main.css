@@ -56,7 +56,7 @@ section, summary, time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: text-bottom;}
+	vertical-align: middle;}
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -2523,6 +2523,9 @@ input, select, textarea {
 			box-shadow: none !important;
 			color: #ffffff !important;
 			width: 400px;
+			margin-top: 5px;
+			margin-bottom: 5px;
+
 		}
 
 			input[type="submit"].primary:hover,
