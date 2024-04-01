@@ -6,7 +6,12 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
+.vacation{
+	color: #6be2d8;
+}
 .bigger-text{
+	
+	color: #6be2d8;
 	font-size: x-large;
 	font-weight: 1000;
 }
