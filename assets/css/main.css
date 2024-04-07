@@ -7,10 +7,23 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-.chat-bubble{
-
+.free-trial-button{
+	width: 400px;
+	padding: 0;
+	height: auto;
+	margin-bottom: 15px;
+	background: linear-gradient(to bottom right, #d554cc86, rgba(0, 0, 0, 0.219));
 }
-
+.free-trial{
+	margin: 0;
+}
+.smaller-free-trial{
+	font-size: .75em;
+}
+.bolder-b{
+    font-weight: 900;
+    font-size: medium;
+}
 @keyframes typewriter {
 	from {
 		width: 0;
@@ -58,18 +71,28 @@
 
 
 .vacation {
-	color: #6be2d8;
+	color: #ffffff;
 	margin-bottom: 20px;
+	text-shadow:
+	  -1px -1px 0 #ffffff25, /* Top-left shadow */
+	  1px -1px 0 #ffffff25,  /* Top-right shadow */
+	  -1px 1px 0 #ffffff25,  /* Bottom-left shadow */
+	  1px 1px 0 #ffffff25;   /* Bottom-right shadow */
 }
 .clarify-text{
     margin-bottom: 20px;
 }
 .bigger-text {
 
-	color: #6be2d8;
+	color: #f72583;
 	font-size: x-large;
 	font-weight: 1000;
     margin-bottom: 20px;
+	text-shadow:
+	  -1px -1px 0 #ffffff65, /* Top-left shadow */
+	  1px -1px 0 #ffffff65,  /* Top-right shadow */
+	  -1px 1px 0 #ffffff65,  /* Bottom-left shadow */
+	  1px 1px 0 #ffffff65;   /* Bottom-right shadow */
 
 }
 
@@ -1735,7 +1758,21 @@ pre code {
 		font-size: 0.7em;
 		margin-bottom: 5px;
 	}
-
+	.free-trial-button{
+		height: auto;
+		width: 100%;
+		margin-bottom: 15px;
+	}
+	.free-trial{
+		margin: 0;
+	}
+	.smaller-free-trial{
+		font-size: .75em;
+	}
+	.bolder-b{
+		font-weight: 900;
+		font-size: small;
+	}
 	.row {
 		display: flex;
 		flex-wrap: wrap;
