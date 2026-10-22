@@ -1,0 +1,12 @@
+/* Context for the original AI offering, while preserving the existing demo. */
+.offering-status { padding: 6.5rem 1.5rem 2.5rem; background: #211a24; border-bottom: 1px solid #655061; color: #f5f0e9; }
+.offering-status > div { max-width: 850px; margin: auto; }
+.offering-status .offering-status-label { margin: 0 0 .75rem; color: #f1bdce; font-size: .8rem; letter-spacing: .08em; }
+.offering-status h2 { margin-bottom: .8rem; letter-spacing: .02em; }
+.offering-status p { margin-bottom: 1rem; }
+.offering-status-links { display: flex; flex-wrap: wrap; gap: .5rem 2rem; }
+.offering-status-links a { display: inline-flex; align-items: center; min-height: 44px; color: #f1bdce; }
+.setup-link { display: inline-flex; flex-direction: column; gap: .4rem; padding: 1rem 1.5rem; text-decoration: none; }
+.setup-link .free-trial { display: block; margin: 0; }
+.offering-status a:focus-visible, .setup-link:focus-visible { outline: 2px solid #f1bdce; outline-offset: 5px; }
+@media(max-width: 600px) { .offering-status { padding-top: 5rem; } .offering-status h2 { font-size: 1.25rem; } }
